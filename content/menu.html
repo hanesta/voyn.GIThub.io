@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+ 
+  <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+ 
+  <style>
+      .container {
+      max-width: 800px;
+      margin: 0 auto;
+      margin-top:100px;
+     
+    }
+          .card{
+              margin-bottom:40px;
+          }
+          .form-group{
+            margin-bottom: 30px;
+            max-width: 400px;
+            margin-left: 30%;
+
+          }
+      
+  </style>
+</head>
+<body>
+
+     
+<div class="container-fluid">
+  <h2 class="text-center mb-4">Cafe Menu</h2>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="beye.jpg" class="card-img-top" alt="Food 1">
+        <div class="card-body">
+          <h5 class="card-title">በየ ኣይነቱ</h5>
+          <p class="card-text">150 birr</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="egg.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">እንቃቕሖ</h5>
+          <p class="card-text">120 birr</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="tibs.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ጥብሲ</h5>
+          <p class="card-text">200 birr</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="gebena.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ቡና</h5>
+          <p class="card-text">10 birr</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="fish.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ዓሳ</h5>
+          <p class="card-text">200 birr</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="ata.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ኣታክልቲ</h5>
+          <p class="card-text">130 birr</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="alcha.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ኣልጫ</h5>
+          <p class="card-text">130 birr</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="doro.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ዶሮ</h5>
+          <p class="card-text">400 birr</p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-md-4">
+      <div class="card">
+        <img src="ge.jpg" class="card-img-top" alt="Food 2">
+        <div class="card-body">
+          <h5 class="card-title">ገዓት</h5>
+          <p class="card-text">100 birr</p>
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+</div>
+
+      <form class="text-center">
+        <div class="form-group">
+          <label for="item">Select Item:</label>
+          <select class="form-control" id="item">
+            <option value="እንቃቕሖ">እንቌቕሖ</option>
+           <option value="በየ ኣይነቱ">በየ ኣይነቱ</option>
+            <option value="ዓሳ">ዓሳ</option>
+            <option value="ጥብሲ">ጥብሲ</option>
+            <option value="ቡና">ቡና</option>
+            <option value="ኣታክልቲ">ኣታክልቲ</option>
+            <option value="ኣልጫ">ኣልጫ</option>
+            option value="ዶሮ">ዶሮ</option>
+            <option value="ገዓት">ገዓት</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Quantity:</label>
+          <input type="number" class="form-control" id="quantity" placeholder="Enter quantity">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+
+
+</body>
+</html>
